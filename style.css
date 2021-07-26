@@ -1,0 +1,292 @@
+/*-=========================================================================
+    common css
+===========================================================================*/
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.form-control{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid tomato;
+    margin-right: -35px;
+
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none ;
+    background-color: tomato;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: .5s;
+}
+
+.btn1:hover{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none ;
+    background-color: rgb(223, 20, 88);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: tomato;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+
+
+/*-=========================================================================
+    header-area/navbar
+===========================================================================*/
+.navbar{
+    background: #fff;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover{
+    font-size: 2rem;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 25px;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-transform: uppercase;
+    transition: .5s;
+    border-top: white 2px solid;
+}
+
+.nav-link:hover{
+    color: #000;
+    background: whitesmoke;
+    border-top: 2px solid tomato ;
+}
+
+/*---================================================================================
+    header-area/front
+====================================================================================*/
+
+.main{
+    background: url(img/lunchcopy.jpg) no-repeat;
+    background-size: cover;
+    height: 80%;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+   
+}
+
+/*---================================================================================
+    header-area/footer
+====================================================================================*/
+.new {
+    margin-top: 25px;
+}
+.new .carousel{
+    height: 80%;
+    width: 100%;
+    overflow-y: hidden;
+
+}
+
+/*---================================================================================
+    products
+====================================================================================*/
+
+.card{
+    box-shadow: 9px -7px 19px -9px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 9px -7px 19px -9px rgba(0,0,0,0.66);
+    -moz-box-shadow: 9px -7px 19px -9px rgba(0,0,0,0.66);
+    transition: .6s;
+}
+
+.card:hover{
+    box-shadow: -9px 17px 19px -9px rgba(0,0,0,0.66);
+    -webkit-box-shadow: -9px 17px 19px -9px rgba(0,0,0,0.66);
+    -moz-box-shadow: -9px 17px 19px -9px rgba(0,0,0,0.66);
+}
+
+
+/*---================================================================================
+    catalogue
+====================================================================================*/
+
+
+
+
+
+/*---================================================================================
+    Tips
+====================================================================================*/
+
+.tips{
+    background:linear-gradient(rgba(0,0,0,0.66),rgba(0,0,0,0.66)), url(img/copy\ copy.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.tips h1{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+
+/*---================================================================================
+    Contact Us
+====================================================================================*/
+
+
+
+/*---================================================================================
+    Footer
+====================================================================================*/
+
+.footer{
+    background: #000;
+    color: #fff;
+}
+
+.footer input{
+    height: 45px;
+    width: 55%;
+    border: rgb(7, 129, 228) 2px solid;
+    border-radius: 60px;
+    padding-left: 15px;
+    margin-right: -35px;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    border: none;
+    outline:none ;
+    background-color: rgb(7, 129, 228);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: .5s;
+    margin-left: -35px;
+}
+
+.btn2:hover{
+    height: 45px;
+    width: 100px;
+    border: none;
+    outline:none ;
+    background-color: rgb(20, 223, 172);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.fab{
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: .5s;
+    margin-right:7px;
+}
+
+.fab:hover {
+    height: 35px;
+    width: 35px;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.fabc{
+    height: 35px;
+    width: 35px;
+    background: #000;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 7px;
+}
+
+.fabc:hover{
+    height: 35px;
+    width: 35px;
+   
+    color: rgb(236, 214, 9);
+    font-size: 2rem;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 7px;
+}
+
+
+p a, h6 a{
+    color: #fff;
+    transition: 0.5s;
+}
+
+p a:hover, h6 a:hover{
+    color:cyan;
+    text-decoration: underline;
+
+}
+
