@@ -1,1 +1,1 @@
-# oorganic-ecommerce
+# organic-ecommerce
